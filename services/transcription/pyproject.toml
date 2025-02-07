@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "transcription"
+version = "0.1.0"
+description = ""
+authors = ["Izzeddin Ahmad <izzeddinahmad@proton.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.6"
+uvicorn = "^0.34.0"
+pydantic = "^2.10.5"
+deepgram-sdk = "^3.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

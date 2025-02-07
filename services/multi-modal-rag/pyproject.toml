@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "multi-modal-rag"
+version = "0.1.0"
+description = ""
+authors = ["Izzeddin Ahmad <izzeddinahmad@proton.me>"]
+readme = "README.md"
+packages = [{include = "multi_modal_rag"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+fastapi = "^0.115.8"
+uvicorn = "^0.34.0"
+pydantic = "^2.10.6"
+unstructured = "^0.16.20"
+langchain-core = "^0.3.33"
+langchain-openai = "^0.3.3"
+qdrant-client = "^1.13.2"
+langchain-community = "^0.3.16"
+redis = "^5.2.1"
+
+[tool.pyright]
+exclude = [".venv"]
+venvPath = "."
+venv = ".venv"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
