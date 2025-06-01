@@ -24,7 +24,7 @@ AI-powered high-scallable courses platform.
 ## Installation
 1. Clone the source code using `git`
 ```bash
-git clone https://github.com/izz0000/edumate
+git clone https://github.com/ezz256/edumate
 ```
 2. Entre project's directory
 ```bash
